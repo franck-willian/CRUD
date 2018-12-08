@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0; 
+    padding:0; 
+    font-size:13px;
+    font-family:Georgia, "Times New Roman", Times, serif; 
+    color:#979797; 
+    background-color: white;
+}
+---------------------------------------------- HEADER
+header{
+    background-color: #5555;
+}
+-----------------------------------------------
+
+main{
+    flex: 1;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  black;
+    color: white;
+    text-align: center;
+}
+
+.bt-alt {
+    background-color: rgb(109, 33, 119); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bt-del {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bt-info {
+    background-color: rgb(109, 33, 119);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.descri {
+    padding: 3px 3px;
+    font-size: 13px;
+    border: none;
+}
+
+#categoria {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+}
+
+#categoria td, #categoria th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#categoria tr:nth-child(even){background-color: white;}
+
+#categoria th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightgrey;
+    color: white;
+}
+
+
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+
+.h1cat {
+    margin-left:260px;
+}
+.main {
+   margin-left:260px; 
+}
+
+
+
